@@ -13,8 +13,8 @@ El sistema permite registrar, consultar y gestionar el historial de atención m�
 | Orlando Atencio | Líder del proyecto / Desarrollador principal | [OrlandoAtencio, Mariam Mendoza] |
 | Nombre 2 | Frontend Developer | (Mariam Mendoza) |
 | Nombre 3 | Backend Developer | [Orlando Atencio, Carlos Chin](#) |
-| Nombre 4 | Analista | [Jose Campos] |
-| Nombre 5 | Tester / Documentación | [Luis Rivas] |
+| Nombre 4 | Tester | [Jose Campos] |
+| Nombre 5 | Documentación | [Luis Rivas] |
 | Nombre 6 | Diseñador UX/UI | [Allen Rodriguez]|
 
 ---
