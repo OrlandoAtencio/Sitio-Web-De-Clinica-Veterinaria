@@ -1,7 +1,7 @@
 # Sitio-Web-De-Clinica-Veterinaria
 # 🏥 Sistema de Control de Pacientes - Clínica Veterinaria
 
-Proyecto desarrollado como parte del curso **Sistemas Colaborativos**, Universidad de Panamá.  
+Proyecto desarrollado como parte del curso **Sistemas Colaborativos**, Universidad Tecnológica de Panamá.  
 El sistema permite registrar, consultar y gestionar el historial de atención médica de los pacientes atendidos en la clínica veterinaria del cliente **Manuel Oregón**.
 
 ---
