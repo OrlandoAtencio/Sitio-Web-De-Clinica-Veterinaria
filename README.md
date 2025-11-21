@@ -41,10 +41,10 @@ El sistema automatiza el registro de las consultas veterinarias, permitiendo:
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **Frontend:** HTML5, CSS3, JavaScript  
-- **Backend:** Node.js / PHP / (la que elijan)  
+- **Frontend:** HTML, CSS
+- **Backend:** Python
 - **Base de datos:** MySQL  
-- **Herramientas de colaboración:** GitHub, Trello, Google Meet, Microsoft Teams  
+- **Herramientas de colaboración:** GitHub, Google Meet, WhatsApp 
 
 ---
 
