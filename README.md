@@ -1,7 +1,7 @@
 # Sitio-Web-De-Clinica-Veterinaria
 # 🏥 Sistema de Control de Pacientes - Clínica Veterinaria
 
-Proyecto desarrollado como parte del curso **Sistemas Colaborativos**, Universidad de Panamá.  
+Proyecto desarrollado como parte del curso **Sistemas Colaborativos**, Universidad Tecnológica de Panamá.  
 El sistema permite registrar, consultar y gestionar el historial de atención médica de los pacientes atendidos en la clínica veterinaria del cliente **Manuel Oregón**.
 
 ---
@@ -41,10 +41,10 @@ El sistema automatiza el registro de las consultas veterinarias, permitiendo:
 
 ## 🛠️ Tecnologías Utilizadas
 
-- **Frontend:** HTML5, CSS3, JavaScript  
-- **Backend:** Node.js / PHP / (la que elijan)  
+- **Frontend:** HTML, CSS
+- **Backend:** Python
 - **Base de datos:** MySQL  
-- **Herramientas de colaboración:** GitHub, Trello, Google Meet, Microsoft Teams  
+- **Herramientas de colaboración:** GitHub, Google Meet, WhatsApp 
 
 ---
 

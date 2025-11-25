@@ -12,7 +12,7 @@ CREATE TABLE usuarios (
     nombre VARCHAR(100) NOT NULL,
     correo VARCHAR(150) NOT NULL UNIQUE,
     password_hash VARCHAR(255) NOT NULL,
-    rol ENUM('admin', 'veterinario', 'asistente') DEFAULT 'veterinario',
+    rol ENUM('admin', 'veterinario') DEFAULT 'veterinario',
     creado_en TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
