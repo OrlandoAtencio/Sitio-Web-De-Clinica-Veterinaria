@@ -110,36 +110,4 @@
     </section>
 
 </body>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
-    fetch("../php/dashboard_data_doctor.php")
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById("myConsultations").textContent = data.totalConsultas;
-            document.getElementById("myPatients").textContent = data.totalPacientes;
-            document.getElementById("myConsultationsMonth").textContent = data.consultasMes;
-
-            const recentBox = document.getElementById("recentConsultations");
-            recentBox.innerHTML = "";
-
-            if (data.recientes.length === 0) {
-                recentBox.innerHTML = "<p class='empty'>No hay consultas registradas aún</p>";
-                return;
-            }
-
-            data.recientes.forEach(item => {
-                recentBox.innerHTML += `
-                    <div class="recent-item">
-                        <p><strong>${item.paciente}</strong></p>
-                        <p>${item.fecha} — ${item.motivo}</p>
-                    </div>
-                `;
-            });
-        });
-});
-</script>
-
-
 </html>

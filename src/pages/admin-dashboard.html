@@ -93,7 +93,7 @@
     ============================ -->
     <section class="buttons-grid">
 
-        <a href="registrar_paciente.html" class="action-btn btn-patients">
+        <a href="register-patient.html" class="action-btn btn-patients">
             <p>Gestionar Pacientes</p>
             <span>Registrar nuevos pacientes</span>
         </a>
@@ -111,7 +111,7 @@
         <a href="system-maintenance.html" class="action-btn btn-maintenance">
             <p>Mantenimiento del Sistema</p>
             <span>Archivar pacientes inactivos</span>
-        </a>    
+        </a>
 
     </section>
 
@@ -158,24 +158,4 @@ exampleDoctors.forEach(doc => {
 </script>
 
 </body>
-
-<script>
-async function cargarDashboard() {
-    try {
-        const response = await fetch("dashboard_data_admin.php");
-        const data = await response.json();
-
-        document.getElementById("activePatients").innerText = data.pacientes;
-        document.getElementById("consultationsMonth").innerText = data.consultas;
-        document.getElementById("doctorsCount").innerText = data.medicos;
-
-    } catch (error) {
-        console.error("Error:", error);
-    }
-}
-
-cargarDashboard();
-</script>
-
-
 </html>
